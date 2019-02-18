@@ -1,6 +1,10 @@
 ![simplinnovation](https://4.bp.blogspot.com/-f7YxPyqHAzY/WJ6VnkvE0SI/AAAAAAAADTQ/0tDQPTrVrtMAFT-q-1-3ktUQT5Il9FGdQCLcB/s350/simpLINnovation1a.png)
 
-# ⚠️ Will be updated soon!
+# MKR1000 & Arduino IoT Cloud (Beta)
+
+[![Video Lintang MKR1000 IoT Cloud](https://img.youtube.com/vi/x0Jfc1bsxnU/0.jpg)](https://www.youtube.com/watch?v=x0Jfc1bsxnU)
+
+# ⚠️ Tutorial will be written here soon!
 
 #### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
 
