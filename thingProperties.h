@@ -9,14 +9,14 @@ char pass[] = SECRET_PASS;    // Network password (use for WPA, or use as key fo
 void onLedChange();
 
 bool led;
-float suhu;
-int potentio;
+float temp;
+int pot;
 
 void initProperties(){
   ArduinoCloud.setThingId(THING_ID);
   ArduinoCloud.addProperty(led, READWRITE, ON_CHANGE, onLedChange);
-  ArduinoCloud.addProperty(suhu, READ, ON_CHANGE, NULL);
-  ArduinoCloud.addProperty(potentio, READ, ON_CHANGE, NULL);
+  ArduinoCloud.addProperty(temp, READ, ON_CHANGE, NULL);
+  ArduinoCloud.addProperty(pot, READ, ON_CHANGE, NULL);
 }
 
 ConnectionManager *ArduinoIoTPreferredConnection = new WiFiConnectionManager(SECRET_SSID, SECRET_PASS);

@@ -1,8 +1,8 @@
 #include "arduino_secrets.h"
 #include "thingProperties.h"
 #include "DHT.h"
-#define DHTPIN 4
-#define LEDPIN 3
+#define DHTPIN 5
+#define LEDPIN 4
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -18,8 +18,8 @@ void setup() {
 
 void loop() {
   ArduinoCloud.update();
-  potentio = analogRead(A0);
-  suhu = dht.readTemperature();
+  pot = analogRead(A0);
+  temp = dht.readTemperature();
 }
 
 void onLedChange() {
