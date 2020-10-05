@@ -6,6 +6,10 @@ __Video 1:__ _MKR1000 & Arduino IoT Cloud_, uploaded on Feb 18, 2019
 
 [![Video Lintang MKR1000 IoT Cloud](https://img.youtube.com/vi/x0Jfc1bsxnU/0.jpg)](https://www.youtube.com/watch?v=x0Jfc1bsxnU)
 
+__Video 2:__ _Arduino MKR1000, IoT Cloud & Its Cloud Remote App_, uploaded on Oct 5, 2020
+
+[![Video Lintang MKR1000 IoT Cloud](https://img.youtube.com/vi/IriMoidDG8E/0.jpg)](https://www.youtube.com/watch?v=IriMoidDG8E)
+
 #
 
 ## Hardware
@@ -41,7 +45,6 @@ __Video 1:__ _MKR1000 & Arduino IoT Cloud_, uploaded on Feb 18, 2019
 5. Click _Edit Sketch_ button to code your IoT device using __Arduino Web Editor__. On _Secret_ tab, insert SSID (WiFi name) & its password, that will be used by your IoT device to connect to the internet. Then write these lines on `.ino` file tab:
 
     ```arduino
-    #include "arduino_secrets.h"
     #include "thingProperties.h"
     #include "DHT.h"
 
