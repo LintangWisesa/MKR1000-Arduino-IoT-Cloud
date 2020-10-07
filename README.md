@@ -49,7 +49,7 @@ __Video 2:__ _Arduino MKR1000, IoT Cloud & Its Cloud Remote App_, uploaded on Oc
 5. Click _Edit Sketch_ button to code your IoT device using __Arduino Web Editor__. On _Secret_ tab, insert SSID (WiFi name) & its password, that will be used by your IoT device to connect to the internet. Then write these lines on `.ino` file tab:
 
     ![editor](./img/dEditor.png)
-    
+
     ```arduino
     #include "thingProperties.h"
     #include "DHT.h"
@@ -86,7 +86,7 @@ __Video 2:__ _Arduino MKR1000, IoT Cloud & Its Cloud Remote App_, uploaded on Oc
 
     ![dashboard](./img/eDashboard.png)
 
-7. Now you can control & monitor your device via Arduino IoT Cloud Dashboard. You can also use its __IoT Cloud Remote App__ to control & monitor your device on smartphone. Download it from Play Store or App Store. Enjoy!
+7. Now you can control & monitor your device via Arduino IoT Cloud Dashboard. You can also use its __IoT Cloud Remote App__ to control & monitor your device on smartphone. Download it from [__Google Play Store__](https://play.google.com/store/apps/details?id=cc.arduino.cloudiot) (Android) or [__Apple App Store__](https://apps.apple.com/us/app/id1514358431) (iOS). Enjoy!
 
 #
 
