@@ -34,16 +34,22 @@ __Video 2:__ _Arduino MKR1000, IoT Cloud & Its Cloud Remote App_, uploaded on Oc
 
 1. Connect all parts to Arduino MKR1000 as the following diagram:
 
-    ![schema](./schema.png)
+    ![schema](./img/aSchema.png)
 
 2. Signup/login to [arduino.cc](https://www.arduino.cc/) then go to Arduino IoT Cloud page ([create.arduino.cc/iot](https://create.arduino.cc/iot/)). 
 
 3. Go to __Devices__ menu to configure your IoT device. First click _Add Device_ button then you will be noticed to download & install __Arduino Create Agent__. After that you will be asked to connect your IoT device to your computer. Arduino Create Agent will scan your device then inform you about your IoT device type & connected port. Simply click _Configure_ button, wait till finish & your device is ready to go.
 
+    ![device](./img/bDevice.png)
+
 4. Go to __Things__ menu to create your _Thing_ (project) with all respected _Properties_ (sensor/actuator). In this tutorial I create a _Thing_ called `Simplinnovation` with 3 properties: `led`, `pot` and `temp`.
+
+    ![thing](./img/cThing.png)
 
 5. Click _Edit Sketch_ button to code your IoT device using __Arduino Web Editor__. On _Secret_ tab, insert SSID (WiFi name) & its password, that will be used by your IoT device to connect to the internet. Then write these lines on `.ino` file tab:
 
+    ![editor](./img/dEditor.png)
+    
     ```arduino
     #include "thingProperties.h"
     #include "DHT.h"
@@ -77,6 +83,8 @@ __Video 2:__ _Arduino MKR1000, IoT Cloud & Its Cloud Remote App_, uploaded on Oc
     Verify & upload the sketch to your device.
 
 6. After done uploading, on Arduino Web Editor click _Go To IoT Cloud_ button to create a dashboard. Click __Dashboard__ menu then create your own dashboard to monitor & control your device through the internet. In this tutorial, I create a _switch widget_ to control LED & 2 _value widgets_ to monitor my DHT11 & potentiometer value. To actvate your dashboard, click _Use Dashboard_ button.
+
+    ![dashboard](./img/eDashboard.png)
 
 7. Now you can control & monitor your device via Arduino IoT Cloud Dashboard. You can also use its __IoT Cloud Remote App__ to control & monitor your device on smartphone. Download it from Play Store or App Store. Enjoy!
 
